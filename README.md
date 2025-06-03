@@ -6,7 +6,7 @@ Ruby API for accessing the USPS WebTools API found here: https://www.usps.com/bu
 
 PDF Guides can be found here: https://www.usps.com/business/webtools-technical-guides.htm
 
-Usage of this library assumes you already have a USPS API account and that all priviledges have been granted.
+Usage of this library assumes you already have a USPS API account and that all privileges have been granted.
 
 ## Project Status - Looking for a Maintainer
 
