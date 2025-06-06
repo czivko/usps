@@ -1,8 +1,8 @@
 # TODO: Documentation
 #
-# The USPS API uses a standard where Address2 is the street adress and Address1 is
+# The USPS API uses a standard where Address2 is the street address and Address1 is
 # the apartment, suite, etc... I have switched them to match how I see them on an envelope.
-# Additionally they are refered to address and extra_address though both address1 and address2
+# Additionally they are referred to address and extra_address though both address1 and address2
 # work. Just remember they are flip flopped based on the USPS documentation.
 class USPS::Address < Struct.new(:name, :company, :address1, :address2, :city, :state, :zip5, :zip4, :return_text, :dpv_confirmation)
 
